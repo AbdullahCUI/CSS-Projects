@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #181F2B;
+    position: relative;
+}
+header {
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    margin-top: 30px;
+    text-transform: capitalize;
+}
+
+.hero {
+    gap: 15px;
+}
+
+header a {
+    text-decoration: none;
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+.flex {
+    display: flex;
+}
+.data-storage {
+    text-align: center;
+    padding-top: 70px;
+}
+.data-storage h2  {
+    max-width: 730px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+.data-storage p {
+    font-weight: 400;
+    max-width: 590px;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 auto;
+    padding-bottom: 32px;
+}
+
+.start-action-button{
+    background-color: #8ADAE3;
+    color: #fff;
+    border: 0;
+    width: 280px;
+    padding: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.file-features{
+    max-width: 350px;
+    text-align: center;
+}
+
+.file {
+    gap: 147px;
+}
+.file h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.file p {
+    font-size: 13px;
+}
+.file-section {
+   gap: 80px;
+   margin-top: 80px;
+}
+
+.file-submission {
+    gap: 47px;
+    margin-top: 147px;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    gap: 19px;
+    max-width: 563px;
+}
+
+.text h3 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 50px;
+    max-width: 445px;
+    color: #fff;
+}
+
+.text.paragraph {
+    line-height: 24px;
+}
+
+.share-file {
+    align-items: center;
+    gap: 8px;
+}
+.share-arro {
+    border-radius: 50%;
+    max-width: 12px;
+    align-items: center;
+    background-color: #fff;
+}
+
+.share-arro img {
+    width: 100%;
+}
+
+.share-link {
+    text-decoration: none;
+    color: rgb(125, 123, 123);
+}
+.share-link:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.profile {
+    gap: 8px;
+}
+
+.cards {
+    gap: 20px;
+    max-width: 360px;
+    padding: 26px;
+    background-color: #202A3C;
+}
+
+.image {
+    border-radius: 50%;
+    max-width: 24px;
+    max-height: 24px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.user-image {
+    width: 100%;
+}
+
+.introduction {
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
+}
+
+.description {
+    font-size: 16px;
+    color: rgb(108, 107, 107);
+}
+
+.user-description {
+    font-size: 8px;
+    color: rgb(108, 107, 107);
+}
+.common-text-style {
+    line-height: 24px;
+    margin-top: 9px;
+}
+.user-name {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.user-details {
+    gap: 4px;
+}
+.signUp-interface {
+    max-width: 860px;
+    text-align: center;
+    padding: 42px 77px;
+    margin: 0 auto;
+    background-color: #1B2330;
+    margin-top: 200px;
+    position: absolute;
+    left: 250px;
+    bottom: 280px;
+    border-radius: 15px;
+}
+
+.signUp-interface-text {
+    max-width: 650px;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 20px 0;
+}
+
+.email {
+    border-radius: 20px;
+    border: 0;
+    width: 480px;
+    padding: 10px;
+}
+
+.start-action-button {
+    background-color: #8ADAE3;
+    color: #fff;
+    border: 0;
+    width: 280px;
+    padding: 15px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.location {
+    gap: 5px;
+    max-width: 380px;
+}
+
+.icons {
+    max-width: 20px;
+    max-height: 22px;
+}
+
+.phone-contact,.email,.contact {
+    gap: 10px;
+}
+
+.description {
+    justify-content: space-between;
+    padding: 60px;
+    color: #fff;
+}
+
+.box-gap,.login-interface  {
+    gap: 16px;
+}
+
+.infomation-links a {
+    text-decoration: none;
+    color: rgb(108, 107, 107);
+}
+
+.paragraph,.heading {
+    font-weight: 300px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(108, 107, 107);
+}
+.heading {
+    font-family: "Raleway", sans-serif;
+    color: #FFFFFF;
+}
+
+.flex-direction {
+    flex-direction: column;
+}
+.content-place {
+    justify-content: center;
+    align-items: center;
+}
+.company-contacts {
+    margin-top: 400px;
+    background-color: #0B1524;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.company-logo {
+    padding-left: 35px;
+    padding-top: 100px;
+    flex-direction: row;
+    padding-top: 100px;
+    padding-left: 60px;
+    color: #fff;
+}
+@media (max-width:668px) {
+    .file-section,.content-place,.introduction {
+        flex-direction: column;
+    }
+}
