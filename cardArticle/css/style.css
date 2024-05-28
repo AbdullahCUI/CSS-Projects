@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ECF2F8;
+  font-family: 'Manrope', sans-serif;
+  padding: 15px;
+}
+
+.hero {
+  background-color: #fff;
+  max-width: 731px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 40px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.text-with-images{
+  padding: 20px 40px 20px 40px;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.image {
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+}
+.heading {
+  margin-bottom: 12px;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: bold;
+}
+
+.user-information-container.user-details.userName p {
+  font-size: 13px;
+}
+
+.user-information-container {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.information-share-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  background-color: #ECF2F8;
+}
+
+#share-information-share-icon {
+  max-width: 100%;
+}
+
+.DOB,.paragraph {
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.12px;
+  color: #6E8098;
+}
+
+.paragraph-font-color {
+  color: #48556A;
+  font-weight: bold;
+}
+
+.user-details {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.userImg {
+  display: flex;
+  border: 1px solid #000000;
+  background-color: hsl(0, 0%, 0%);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+}
+
+.user-image {
+  object-fit: cover;
+}
+
+@media (max-width:768px) {
+  .hero{
+    flex-direction: column;
+  }
+
+  .image {
+    max-height: 285px;
+  }
+  .text-with-images{
+    padding-right: 40px;
+    padding-left: 40px;
+    margin: 0 auto;
+    max-width: 480px;
+  }
+
+  .user-information-container,.user-image,.second-div,.image {
+    width: 100%;
+  }
+
+  .text-with-images{
+    padding: 32px 32px 0 32px;
+  }
+
+  .heading,.DOB {
+    font-size: 16px;
+  }
+
+  .DOB {
+    line-height: 20px;
+  }
+  .user-details {
+    justify-content: center;
+  }
+  .user-information-container {
+    gap: 20px;
+  }
+}
