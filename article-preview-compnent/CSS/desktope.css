@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ECF2F8;
+}
+
+.desktop-main {
+    display: flex; 
+    margin: 0 auto;
+    margin-left: 300px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.main-paragraphs {
+    padding: 30px;
+    background-color: #FFFFFF;
+}
+
+.desktop-para-first {
+    width: 365px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color: #48556A;
+    padding-bottom: 12px;
+}
+
+.desktop-para-second {
+    width: 365px;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.12px;
+    padding-bottom: 20px;
+}
+
+.author-data {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+
+
+.author-name1 {
+    font-size: 13px;
+    font-weight: bold;
+    color: #48556A;
+    padding-bottom: 5px;
+}
+
+.date {
+    font-size: 13px;
+    color: #9DAEC2;
+}
+
+.share-icon {
+    width: 32px;
+    margin-top: 2px;
+}
+
+.footer-div {
+    width: 248px;
+    display: flex;
+    background-color: #001aff74;
+    padding: 15px;
+    border-radius: 10px;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 55px;
+    left: 210px;
+}
+
+.combine{
+    display: flex;
+    gap: 5px;
+}
+
+@media (max-width:700px) {
+    .desktop-main{
+        flex-direction: column;
+        width: 100%;
+    }
+    .author-data {
+        padding-bottom: 0;
+    }
+}
+     
